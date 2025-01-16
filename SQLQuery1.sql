@@ -8,8 +8,8 @@ son_kul_tar date,
 )
 select *from urun
 
-insert into urun( urun,gel_tar,son_kul_tar) values ('masa','10.01.2020','10.01.2029')
-insert into urun(urun,gel_tar,son_kul_tar) values ('sıra','2019.12.11','2049.08.18')
+insert into urun( urun,gel_tar,son_kul_tar) values ('Tahta','10.01.2020','10.01.2029')
+insert into urun(urun,gel_tar,son_kul_tar) values ('Masa','2019.12.11','2049.08.18')
 
 delete from urun where id=5
 
